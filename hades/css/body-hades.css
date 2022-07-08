@@ -1,0 +1,96 @@
+.body{
+    background-color: black;
+}
+
+.sectionSobreJ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url(../../estillo/img/Hades_wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.secJogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(49, 18, 0, 0.897);
+    border-style: solid;
+    border-width: 0.5rem;
+    border-color: #6a00001f;
+    width: 60rem;
+}
+.sobreJogo{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+
+.tituloParag{
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: rgb(137, 200, 255);
+}
+
+.parag{
+    margin-left: 3.9rem;
+    margin-right: 3.9rem;
+    color: antiquewhite;
+}
+.img_icone_texto{
+    width: 12rem;
+    object-fit: contain;
+}
+.itens_secJ{
+    width:30rem
+}
+
+
+
+
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.tituloVideo{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 150%;
+    text-decoration: underline;
+
+    margin: 2rem 0;
+}
+
+
+
+
+.secMeritoHades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+.meritosHades{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.analise{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+.comentario{
+    margin: 1rem 0;
+    color: aliceblue;
+}

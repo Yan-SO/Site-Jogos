@@ -1,0 +1,11 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-image: url(../../estillo/img/bg.jpg);
+}
+.icone_rodape{
+    width: 23%;
+    height: 23%;
+}

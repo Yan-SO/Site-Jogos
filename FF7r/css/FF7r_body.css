@@ -1,0 +1,66 @@
+body{
+
+    background-image: url("../../estillo/img/FF7R_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main{
+    display: flex;
+}
+
+.introducaoTexto{
+    margin: 0% 10%;
+    color: aliceblue;
+
+    height: 50%;
+    width: 30%;
+
+}
+.conteudo{
+    
+    
+    width: 80%;
+    background-color: rgba(9, 15, 10, 0.897);
+    margin: auto;
+}
+.introducao{
+    display: flex;
+    align-items: center;
+    
+    width: 80%;
+    margin: auto;
+}
+.FF7RIcone{
+    
+    height: 30%;
+    width: 30%;
+}
+
+
+.blocoVideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: auto;
+    
+}
+
+.tituloVideo{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 120%;
+
+    margin: 2rem 0;
+}
+.texto{
+    display: flex;
+    flex-direction: row-reverse;
+
+    color: aliceblue;
+    margin: 4em 6rem;
+}
+.imagem_FF7r_jogoCapa{
+    margin: 0 0 0 1rem;
+}

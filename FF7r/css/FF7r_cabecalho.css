@@ -1,0 +1,27 @@
+/* :root{
+    display: flex;
+} */
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../../estillo/img/ffviir-zoom-midgar-city.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icone{
+    width: 8%;
+    margin: 0px 50px;
+
+}
+.lista_links{
+    display: flex;
+}
+.link{
+    display: flex;
+    margin: 50px;
+    color: #FFF;
+    text-decoration: none
+}
+.link li:hover{
+    color: rgb(41, 39, 48);
+}

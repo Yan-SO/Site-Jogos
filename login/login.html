@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login_cabecalho.css">
+    <link rel="stylesheet" href="./css/login_body.css">
+    <link rel="shortcut icon" href="../estillo/img/controle_icone.png">
+    <title>Login</title>
+</head>
+<body class="body">
+    <header>
+        <nav class="cabecalho">
+            <h2><img class="icone" src="../estillo/img/controle_icone.png" alt="logo"></h2>
+            <ul class="lista_links">
+                <li><a class="link" href="../cadastro/cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <form class="form">
+            
+                <a id="nomeUsuarioSenhaErrados" class="nomeUsuarioSenhaErrados">nome de usuariou senha errados</a>
+                
+                <label class="label">Login:</label>
+                <input id="nomeUsuario"  class="enviar" placeholder="Nome de usuário" required autofocus>
+            
+            
+                <label class="label">Senha:</label>
+                <input id="senha" class="enviar" placeholder="Senha" type="password" required >
+            
+            <button type="submit" id="botao-login">Login</button>
+        </form>
+    </main>
+    <footer>
+        
+    </footer>
+
+    <script src="../javaScript/usuario/usuario.js"></script>
+    <script src="../javaScript/Connection/ConnectionFactory.js"></script>
+    <script src="../javaScript/Connection/UsuarioDao.js"></script>
+    <script src="./js/Login.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

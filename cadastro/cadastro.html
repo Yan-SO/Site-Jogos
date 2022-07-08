@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/cadastro_cabecalho.css">
+    <link rel="stylesheet" href="./css/cadastro_body.css">
+    <link rel="shortcut icon" href="../estillo/img/controle_icone.png">
+    <title>Cadastro</title>
+</head>
+<body class="body">
+    <header>
+        <nav class="cabecalho">
+            <h2><img class="icone" src="../estillo/img/controle_icone.png" alt="logo"></h2>
+            <ul class="lista_links">
+                <li><a class="link" href="../login/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <form class="form">
+            
+                <label class="label">nome de usuario:</label>
+                <input id="nomeUsuario" class="enviar" required type="text" placeholder="Nome de usuário">
+
+
+                <label class="label">Email:</label>
+                <input id="Email" class="enviar"required type="email" placeholder="Email">
+
+            
+            
+                <label class="label">Senha:</label>
+                <div class="enviar">
+                    <input id="senha"  required type="password" placeholder="Senha">
+                    <button class="verSenha" type="button" onclick="mostrarSenha('#senha')"><img src="../estillo/img/eye-outline.svg" alt="verSenha"></button>
+                </div>
+                
+                <label class="label"> Cofirmação da Senha:</label>
+                <div class="enviar">
+                    <input id="senha-confirma" required type="password"  placeholder="Senha">
+                    <button class="verSenha" type="button" onclick="mostrarSenha('#senha-confirma')" ><img src="../estillo/img/eye-outline.svg" alt="verSenha"></button>
+                </div>
+            
+            <button type="submit" id="botao-cadastro">Confirmar</button>
+        </form>
+    </main>
+    
+    <script src="../javaScript/usuario/usuario.js"></script>
+    <script src="../cadastro/js/cadastro.js"></script>
+    <script src="../javaScript/Connection/ConnectionFactory.js"></script>
+    <script src="../javaScript/Connection/UsuarioDao.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        function mostrarSenha(id){
+            let type= document.querySelector(id)
+            if(type.type=="password"){type.type= "text";
+            }else{type.type='password'}
+        };
+    </script>
+
+</body>
+</html>
