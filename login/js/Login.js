@@ -18,13 +18,17 @@ class Login{
 
     _valida(usuario){
         if(usuario == null){
-            console.log('Usuario não esiste')
+            this._campoEmVermelho(document.querySelector("#nomeUsuario"));
+            console.log('Usuario não esiste');
         }else{
+            this._campoCerto(document.querySelector("#nomeUsuario"));
             this._UsuarioCerto= true;
             if(usuario.getSenha()==this._senhaInf){
+                this._campoCerto(document.querySelector("#senha"));
                 this._senhaCerto= true;
             }else{
-                console.log('senha errada')
+                this._campoEmVermelho(document.querySelector("#senha"));
+                console.log('senha errada');
             }
         }
     }
@@ -36,15 +40,13 @@ class Login{
         }
     }
 
-    // campoErrado(fonteVermelho, bordaVermelha) {
+    _campoEmVermelho(bordaVermelha) {
         
-    //         bordaVermelha.style.borderStyle= "solid";
-    //         bordaVermelha.style.borderColor= "red";
-           
-        
-        
-    //     if (fonteVermelho != null) {
-    //         fonteVermelho.style.color= "#4a1212";
-    //     }
-    // }
+            bordaVermelha.style.borderStyle= "solid";
+            bordaVermelha.style.borderColor= "red";
+    }
+
+    _campoCerto(campo){
+        campo.style.borderStyle= "none";
+    }
 }
