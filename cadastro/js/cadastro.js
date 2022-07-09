@@ -20,8 +20,9 @@ class Cadastro{
                         .then((value) => {
                             window.location.href = "../FF7r/FF7r.html";
                         });
-                    //alert('usuario criado com sucesso');
         }else{
+            let mensagem= new Mensagem('As senha não diferentes', '.form');
+            mensagem.colocaElemento();
             console.log('As senha não diferentes');
         }
     }

@@ -19,6 +19,8 @@ class Login{
     _valida(usuario){
         if(usuario == null){
             this._campoEmVermelho(document.querySelector("#nomeUsuario"));
+            let mensagem= new Mensagem('Usuario não esiste', '.form');
+            mensagem.colocaElemento();
             console.log('Usuario não esiste');
         }else{
             this._campoCerto(document.querySelector("#nomeUsuario"));
@@ -28,6 +30,8 @@ class Login{
                 this._senhaCerto= true;
             }else{
                 this._campoEmVermelho(document.querySelector("#senha"));
+                let mensagem= new Mensagem('senha errada', '.form');
+                mensagem.colocaElemento();
                 console.log('senha errada');
             }
         }
