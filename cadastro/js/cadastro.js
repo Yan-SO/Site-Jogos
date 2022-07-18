@@ -18,10 +18,10 @@ class Cadastro{
                     .adiciona(novoUser));
                     swal("Cadastrado com Sucesso!", "", "success")
                         .then((value) => {
-                            window.location.href = "../FF7r/FF7r.html";
+                            window.location.href = "../Home/Home.html";
                         });
         }else{
-            let mensagem= new Mensagem('As senha não diferentes', '.form');
+            let mensagem= new Mensagem('As senha são diferentes', '.form');
             mensagem.colocaElemento();
             console.log('As senha não diferentes');
         }
