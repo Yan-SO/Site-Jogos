@@ -96,7 +96,9 @@
 }
 
 @media (max-width: 576px){
-
+    .itens_secJ{
+        width: auto;
+    }
     .parag{
         margin: 0;
         padding-left: 10px;
