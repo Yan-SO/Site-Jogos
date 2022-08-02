@@ -18,8 +18,6 @@ body{
 
 }
 .conteudo{
-    
-    
     width: 80%;
     background-color: rgba(9, 15, 10, 0.897);
     margin: auto;
@@ -48,6 +46,8 @@ body{
 }
 
 .tituloVideo{
+    display: flex;
+
     color: aliceblue;
     font-weight: bolder;
     font-size: 120%;
@@ -63,4 +63,36 @@ body{
 }
 .imagem_FF7r_jogoCapa{
     margin: 0 0 0 1rem;
+}
+@media (max-width: 576px){
+    .conteudo{
+        width: 100%;
+    }
+
+    .introducao{
+        flex-direction: column;
+    }
+    .introducaoTexto{
+        margin-top: 10%;
+        width: 100%;
+    }
+    .tituloVideo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .video{
+        width: 100%;
+    }
+
+    .texto{
+        flex-direction: column;
+        margin: 10%;
+        text-align: justify;
+    }
+    .imagem_FF7r_jogoCapa{
+        width: 45%;
+        margin: auto;
+        margin-bottom: 5%;
+        
+    }
 }

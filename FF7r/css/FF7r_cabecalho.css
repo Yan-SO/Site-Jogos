@@ -1,27 +1,48 @@
-/* :root{
-    display: flex;
-} */
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
+
+    align-items: center;
+    width: 100%;
+
+    height: 88px;
+
     background-image: url('../../estillo/img/ffviir-zoom-midgar-city.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .icone{
-    width: 8%;
+    
+    width: 88px;
     margin: 0px 50px;
 
 }
+
 .lista_links{
     display: flex;
 }
+.lista_links a{
+
+    margin-right: 30px;
+    font-size: 30px;
+}
 .link{
     display: flex;
-    margin: 50px;
+    margin: auto;
     color: #FFF;
     text-decoration: none
 }
 .link li:hover{
     color: rgb(41, 39, 48);
+}
+
+@media (max-width: 576px){
+    .icone{
+        display:none;
+    }
+    .cabecalho{
+        flex-direction: row-reverse;
+    }
+    
 }

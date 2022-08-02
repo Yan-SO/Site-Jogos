@@ -1,7 +1,9 @@
 .body{
     background-image: url(../../estillo/img/Index_wallparer.jpeg);
-    background-size: cover;
+
     background-repeat: no-repeat;
+    background-size: contain;
+
 }
  
 .form{
@@ -19,7 +21,7 @@
     border-radius: 10%;
 }
 .label{
-
+    
     margin-bottom: 5px;
     color: rgb(255, 255, 255);
 }
@@ -32,9 +34,49 @@
     padding-top: 30px;
     margin: 0%;
 }
-.nomeUsuarioSenhaErrados{
-    color: rgba(240, 248, 255, 0);
-    margin-bottom: 4px;
-    text-decoration: underline;
-    font-size: 1.3rem;
+
+.form button:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width: 576px){
+    .body{
+        background-size:cover;
+    }
+    .form{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        
+        height: 78vh;
+
+        border-style: none;
+        background: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;   
+    }
+    
+    .form label{
+        font-size: 30px;
+    }
+    .form input{
+        width: 80%;
+        height: 2rem;
+    }
+    .form button{
+        width: 35%;
+        
+        color: aliceblue;
+        font-size: 2rem;
+        background-color: rgb(6, 6, 32);
+        
+        border-width: 5px;
+        border-style: solid;
+        border-color: rgba(54, 12, 12, 0.589);
+        border-radius: 5rem;
+    }
+
 }

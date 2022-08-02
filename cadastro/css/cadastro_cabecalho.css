@@ -1,24 +1,39 @@
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
+
+    align-items: center;
+
+    height: 88px;
+
     background-image: url(../../estillo/img/baner_wallparer.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .icone{
-    width: 18%;
+    
+    width: 88px;
     margin: 0px 50px;
 
 }
-.lista_links{
-    display: flex;
+.lista_links a{
+    margin-right: 30px;
+    
+    font-size: 30px;
 }
 .link{
     display: flex;
-    margin: 50px;
+    margin: auto;
     color: #FFF;
     text-decoration: none
 }
 .link li:hover{
     color: rgb(41, 39, 48);
+}
+
+@media (max-width: 576px){
+    .icone{
+        display:none;
+    }
 }

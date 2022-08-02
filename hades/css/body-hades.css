@@ -94,3 +94,22 @@
     margin: 1rem 0;
     color: aliceblue;
 }
+
+@media (max-width: 576px){
+    .secJogo{
+        background-color:#6a00001c;
+    }
+    .sobreJogo{
+        flex-direction: column;
+    }
+    .sobreJogo p{
+        text-align: justify;
+    }
+    .video iframe{
+        width: 100%;
+    }
+    .meritosHades {
+        
+        flex-direction: column;
+    }
+}
