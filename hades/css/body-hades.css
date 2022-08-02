@@ -96,8 +96,16 @@
 }
 
 @media (max-width: 576px){
+
+    .parag{
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .secJogo{
         background-color:#6a00001c;
+        border-style: none;
+        width: 100%;
     }
     .sobreJogo{
         flex-direction: column;
@@ -109,7 +117,9 @@
         width: 100%;
     }
     .meritosHades {
-        
         flex-direction: column;
+    }
+    .secMeritoHades img{
+        width: 100%;
     }
 }
