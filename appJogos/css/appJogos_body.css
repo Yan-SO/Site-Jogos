@@ -1,0 +1,119 @@
+:root{
+    display: flex;
+}
+body{
+    background-color: lightgray;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+main h1{
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+.main{
+    margin: 1rem 15rem 1rem 10rem;
+}
+.main h2{
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
+.main p{
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+
+
+.conteinerIntro{
+    display: flex;
+}
+.conteinerIntro img{
+    margin: 1rem 1rem 0rem 1rem ;
+    
+    height: 10rem;
+    width: 10rem;
+}
+.conteinerIntro h4{
+    font-size: 0.7rem;
+
+    text-align: right;
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+
+.telasApp h3{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1.3rem;
+}
+
+
+.conteinerTelasApp{
+    display: flex;
+    flex-direction: column;
+
+}
+.conteinerImageTela{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    height: 25rem;
+}
+.conteinerImageTela img{
+
+    height: 93%;
+}
+.conteinerTelasApp img{
+    margin: 0rem 1rem 0rem 1rem ;
+}
+.conteinerTelasApp h4{
+    font-size: 0.7rem;
+
+    text-align: right;
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+
+
+.textoTela{
+    display: flex;
+}
+
+
+@media (max-width: 576px){
+    .main{
+        margin: 2rem;
+    }
+
+    .conteinerIntro img{
+        margin: 1rem 1rem 0rem 1rem ;
+    }
+    .conteinerIntro h4{
+        margin: 0rem 1rem 1rem 1rem;
+    }
+    .conteinerIntro{
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteinerTelasApp{
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteinerTelasApp img{
+        margin: 1rem 1rem 0rem 1rem;
+    }
+    .conteinerTelasApp h4{
+        margin: 0rem 1rem 1rem 1rem;
+    }
+}

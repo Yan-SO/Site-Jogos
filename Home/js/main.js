@@ -5,4 +5,8 @@ ff7r.addEventListener('click', ()=>{
 const hades= document.querySelector('#hades');
 hades.addEventListener('click', ()=>{
     window.location.href='../../hades/hades.html'
-})
+});
+const appJogos= document.querySelector('#appJogos');
+appJogos.addEventListener('click', ()=>{
+    window.location.href='../../appJogos/appJogos.html'
+});
