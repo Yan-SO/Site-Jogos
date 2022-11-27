@@ -30,12 +30,15 @@ main h1{
 .main p{
     text-align: justify;
     font-size: 1.1rem;
+
+    margin-bottom: 1.1rem;
 }
 
 
 
 .conteinerIntro{
     display: flex;
+    flex-direction: column;
 }
 .conteinerIntro img{
     margin: 1rem 1rem 0rem 1rem ;
@@ -66,16 +69,16 @@ main h1{
 .conteinerImageTela{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 
     height: 25rem;
 }
 .conteinerImageTela img{
-
+    
     height: 93%;
 }
 .conteinerTelasApp img{
-    margin: 0rem 1rem 0rem 1rem ;
+    margin: 01rem 1rem 0rem 1rem ;
 }
 .conteinerTelasApp h4{
     font-size: 0.7rem;
@@ -84,10 +87,14 @@ main h1{
     margin: 0rem 1rem 1rem 1rem;
 }
 
-
+.introImagem{
+    display: flex;
+    justify-content: center;
+}
 
 .textoTela{
     display: flex;
+    flex-direction: column;
 }
 
 
@@ -95,12 +102,40 @@ main h1{
     .main{
         margin: 2rem;
     }
+    .main p{
+        margin-top: 2rem;
+    }
+    
+    .textoTela{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteinerImageTela img{
+        height: 86%;
+    }
+    .telaCadastrarJogo{
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+    .introImagem{
+        display: flex;
+        
+    }
+    .conteinerImageTela {
+        height: 15rem;
+        align-items: center;
+    }
 
     .conteinerIntro img{
-        margin: 1rem 1rem 0rem 1rem ;
+        margin: 0.5rem 0.5rem 0rem 0.5rem ;
+        height: 7rem;
+        width: 7rem;
     }
     .conteinerIntro h4{
-        margin: 0rem 1rem 1rem 1rem;
+        margin: 0rem 0.5rem 0.5rem 0.5rem;
     }
     .conteinerIntro{
         flex-direction: column;
@@ -111,9 +146,9 @@ main h1{
         align-items: center;
     }
     .conteinerTelasApp img{
-        margin: 1rem 1rem 0rem 1rem;
+        margin: 0.2rem 0.2rem 0rem 0.2rem;
     }
     .conteinerTelasApp h4{
-        margin: 0rem 1rem 1rem 1rem;
+        margin: 0rem 0.2rem 0.2rem 0.2rem;
     }
 }
