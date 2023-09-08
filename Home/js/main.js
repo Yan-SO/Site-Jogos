@@ -10,3 +10,8 @@ const appJogos= document.querySelector('#appJogos');
 appJogos.addEventListener('click', ()=>{
     window.location.href='../../appJogos/appJogos.html'
 });
+const PrimeirosSocorros= document.querySelector('#primeirosSocorros');
+PrimeirosSocorros.addEventListener('click', ()=>{
+    alert('Pagina em andamento');
+    //window.location.href='../../primeirosSocorros/primeirosSocorros.html'
+})
