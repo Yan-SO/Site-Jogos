@@ -1,6 +1,7 @@
 .body{
     background-color: rgba(0, 0, 0, 0.150);
 }
+main{font-family: 'Roboto', sans-serif;}
 .titulo{
     border-style: solid;
     border-width: 1rem 1rem 1rem 1rem;

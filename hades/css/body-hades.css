@@ -1,7 +1,7 @@
 .body{
     background-color: black;
 }
-
+main{font-family: 'Roboto', sans-serif;}
 .sectionSobreJ{
     display: flex;
     flex-direction: column;

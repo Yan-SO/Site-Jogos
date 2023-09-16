@@ -1,6 +1,11 @@
 body{
     background-color: lightgray;
 }
+
+main{
+    font-family: 'Roboto', sans-serif;
+}
+
 .introducao{
     display: flex;
 

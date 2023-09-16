@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+main{font-family: 'Roboto', sans-serif;}
 .form{
     display: flex;
     flex-direction: column;
